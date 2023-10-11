@@ -13,11 +13,6 @@ function tempConvert() {
         fahrenheit = (parseFloat(celsius) * 1.8) + 32;
         document.getElementById('showtemp').innerHTML = "Temprature is converted into " + fahrenheit + " degree fahrenheit";
     }
-    else if (fahrenheit != '' & celsius != '') {
-        celsius = (parseFloat(fahrenheit) - 32) / 1.8;
-        fahrenheit = (parseFloat(celsius) * 1.8) + 32;
-        document.getElementById('showtemp').innerHTML = "Temprature is " + celsius + " degree celcius" + " & " + fahrenheit + " degree fahrenheit";
-    }
     else {
         document.getElementById('showtemp').innerHTML = "Please insert an input";
     }
