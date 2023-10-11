@@ -8,10 +8,10 @@ function tempConvert() {
 
     if (fahrenheit != '') {
         celsius = (parseFloat(fahrenheit) - 32) / 1.8;
-        document.getElementById('showtemp').innerHTML = "Temprature from fahrenheit is " + celsius + " degree celcius";
+        document.getElementById('showtemp').innerHTML = "Temprature is converted into " + celsius + " degree celcius";
     } else if (celsius != '') {
         fahrenheit = (parseFloat(celsius) * 1.8) + 32;
-        document.getElementById('showtemp').innerHTML = "Temprature from celcius is " + fahrenheit + " degree fahrenheit";
+        document.getElementById('showtemp').innerHTML = "Temprature is converted into " + fahrenheit + " degree fahrenheit";
     }
     else if (fahrenheit != '' & celsius != '') {
         celsius = (parseFloat(fahrenheit) - 32) / 1.8;
